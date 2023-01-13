@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jan 13 2023 12:36:33 PM",
+    "testExecutionTimeInMs": 34,
+    "testTotalTimeInMs": 34,
+    "commandTimeInMs": 210,
+    "hostname": "https://coastalcloud-f9-dev-ed.develop.my.salesforce.com",
+    "orgId": "00DDn000004MxRrMAK",
+    "username": "ccuser@rtktmx.com",
+    "testRunId": "707Dn00000Pug3Q",
+    "userId": "005Dn0000053WyJIAU",
+    "totalLines": 54,
+    "coveredLines": 51,
+    "testRunCoverage": "94%",
+    "orgWideCoverage": "94%"
+  },
+  "tests": [
+    {
+      "id": "07MDn00000AMgDZMA1",
+      "queueItemId": "709Dn0000010OlEIAU",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Dn00000Pug3QIAR",
+      "methodName": "getRecordsTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pDn00000Mo9pgIAB",
+        "name": "CustomHierarchyTest",
+        "namespacePrefix": null,
+        "fullName": "CustomHierarchyTest"
+      },
+      "runTime": 34,
+      "testTimestamp": "2023-01-13T17:36:33.000+0000",
+      "fullName": "CustomHierarchyTest.getRecordsTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "CustomHierarchy",
+          "apexClassOrTriggerId": "01pDn00000Mm9mmIAB",
+          "apexTestClassId": "01pDn00000Mo9pgIAB",
+          "apexTestMethodName": "getRecordsTest",
+          "numLinesCovered": 45,
+          "numLinesUncovered": 2,
+          "percentage": "96%",
+          "coverage": {
+            "coveredLines": [
+              8,
+              10,
+              12,
+              14,
+              15,
+              17,
+              20,
+              24,
+              25,
+              28,
+              35,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              47,
+              49,
+              52,
+              57,
+              60,
+              61,
+              65,
+              66,
+              69,
+              72,
+              75,
+              77,
+              79,
+              80,
+              81,
+              85,
+              86,
+              87,
+              88,
+              91,
+              97,
+              98,
+              100,
+              101,
+              103,
+              105,
+              107,
+              109
+            ],
+            "uncoveredLines": [
+              2,
+              50
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "TreeStructure",
+          "apexClassOrTriggerId": "01pDn00000MllQHIAZ",
+          "apexTestClassId": "01pDn00000Mo9pgIAB",
+          "apexTestMethodName": "getRecordsTest",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 1,
+          "percentage": "86%",
+          "coverage": {
+            "coveredLines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              17
+            ],
+            "uncoveredLines": [
+              9
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01pDn00000MllQHIAZ",
+      "name": "TreeStructure",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 1,
+      "percentage": "86%",
+      "coveredLines": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "uncoveredLines": [
+        9
+      ]
+    },
+    {
+      "apexId": "01pDn00000Mm9mmIAB",
+      "name": "CustomHierarchy",
+      "type": "ApexClass",
+      "numLinesCovered": 45,
+      "numLinesUncovered": 2,
+      "percentage": "96%",
+      "coveredLines": [
+        8,
+        10,
+        12,
+        14,
+        15,
+        17,
+        20,
+        24,
+        25,
+        28,
+        35,
+        36,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        52,
+        57,
+        60,
+        61,
+        65,
+        66,
+        69,
+        72,
+        75,
+        77,
+        79,
+        80,
+        81,
+        85,
+        86,
+        87,
+        88,
+        91,
+        97,
+        98,
+        100,
+        101,
+        103,
+        105,
+        107,
+        109
+      ],
+      "uncoveredLines": [
+        2,
+        50
+      ]
+    }
+  ]
+}

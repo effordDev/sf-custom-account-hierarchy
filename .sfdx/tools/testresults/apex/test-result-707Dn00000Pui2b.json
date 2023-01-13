@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jan 13 2023 1:02:08 PM",
+    "testExecutionTimeInMs": 52,
+    "testTotalTimeInMs": 52,
+    "commandTimeInMs": 225,
+    "hostname": "https://coastalcloud-f9-dev-ed.develop.my.salesforce.com",
+    "orgId": "00DDn000004MxRrMAK",
+    "username": "ccuser@rtktmx.com",
+    "testRunId": "707Dn00000Pui2b",
+    "userId": "005Dn0000053WyJIAU",
+    "totalLines": 7,
+    "coveredLines": 7,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "12%"
+  },
+  "tests": [
+    {
+      "id": "07MDn00000AMgTWMA1",
+      "queueItemId": "709Dn0000010OliIAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Dn00000Pui2bIAB",
+      "methodName": "treeStructureTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pDn00000MoSD5IAN",
+        "name": "TreeStructureTest",
+        "namespacePrefix": null,
+        "fullName": "TreeStructureTest"
+      },
+      "runTime": 52,
+      "testTimestamp": "2023-01-13T18:02:08.000+0000",
+      "fullName": "TreeStructureTest.treeStructureTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "TreeStructure",
+          "apexClassOrTriggerId": "01pDn00000MllQHIAZ",
+          "apexTestClassId": "01pDn00000MoSD5IAN",
+          "apexTestMethodName": "treeStructureTest",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              17
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01pDn00000MllQHIAZ",
+      "name": "TreeStructure",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

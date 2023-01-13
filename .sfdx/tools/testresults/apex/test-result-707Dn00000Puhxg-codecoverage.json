@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "TreeStructure",
+      "apexClassOrTriggerId": "01pDn00000MllQHIAZ",
+      "apexTestClassId": "01pDn00000MoSD5IAN",
+      "apexTestMethodName": "treeStructureTest",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 1,
+      "percentage": "86%",
+      "coverage": {
+        "coveredLines": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          17
+        ],
+        "uncoveredLines": [
+          9
+        ]
+      }
+    }
+  ]
+]

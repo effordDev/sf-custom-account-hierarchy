@@ -1,0 +1,88 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "CustomHierarchy",
+      "apexClassOrTriggerId": "01pDn00000Mm9mmIAB",
+      "apexTestClassId": "01pDn00000Mo9pgIAB",
+      "apexTestMethodName": "getRecordsTest",
+      "numLinesCovered": 45,
+      "numLinesUncovered": 2,
+      "percentage": "96%",
+      "coverage": {
+        "coveredLines": [
+          8,
+          10,
+          12,
+          14,
+          15,
+          17,
+          20,
+          24,
+          25,
+          28,
+          35,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          52,
+          57,
+          60,
+          61,
+          65,
+          66,
+          69,
+          72,
+          75,
+          77,
+          79,
+          80,
+          81,
+          85,
+          86,
+          87,
+          88,
+          91,
+          97,
+          98,
+          100,
+          101,
+          103,
+          105,
+          107,
+          109
+        ],
+        "uncoveredLines": [
+          2,
+          50
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "TreeStructure",
+      "apexClassOrTriggerId": "01pDn00000MllQHIAZ",
+      "apexTestClassId": "01pDn00000Mo9pgIAB",
+      "apexTestMethodName": "getRecordsTest",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 1,
+      "percentage": "86%",
+      "coverage": {
+        "coveredLines": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          17
+        ],
+        "uncoveredLines": [
+          9
+        ]
+      }
+    }
+  ]
+]

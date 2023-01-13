@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jan 13 2023 1:00:12 PM",
+    "testExecutionTimeInMs": 30,
+    "testTotalTimeInMs": 30,
+    "commandTimeInMs": 221,
+    "hostname": "https://coastalcloud-f9-dev-ed.develop.my.salesforce.com",
+    "orgId": "00DDn000004MxRrMAK",
+    "username": "ccuser@rtktmx.com",
+    "testRunId": "707Dn00000Puhv1",
+    "userId": "005Dn0000053WyJIAU",
+    "totalLines": 7,
+    "coveredLines": 6,
+    "testRunCoverage": "86%",
+    "orgWideCoverage": "11%"
+  },
+  "tests": [
+    {
+      "id": "07MDn00000AMgTHMA1",
+      "queueItemId": "709Dn0000010OlYIAU",
+      "stackTrace": "Class.TreeStructureTest.treeStructureTest: line 29, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: parentName, Actual: parentLabel",
+      "asyncApexJobId": "707Dn00000Puhv1IAB",
+      "methodName": "treeStructureTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pDn00000MoSD5IAN",
+        "name": "TreeStructureTest",
+        "namespacePrefix": null,
+        "fullName": "TreeStructureTest"
+      },
+      "runTime": 30,
+      "testTimestamp": "2023-01-13T18:00:14.000+0000",
+      "fullName": "TreeStructureTest.treeStructureTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: parentName, Actual: parentLabel",
+        "exceptionStackTrace": "Class.TreeStructureTest.treeStructureTest: line 29, column 1",
+        "className": "TreeStructureTest",
+        "compileProblem": "",
+        "lineNumber": 29,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "TreeStructure",
+          "apexClassOrTriggerId": "01pDn00000MllQHIAZ",
+          "apexTestClassId": "01pDn00000MoSD5IAN",
+          "apexTestMethodName": "treeStructureTest",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 1,
+          "percentage": "86%",
+          "coverage": {
+            "coveredLines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              17
+            ],
+            "uncoveredLines": [
+              9
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01pDn00000MllQHIAZ",
+      "name": "TreeStructure",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 1,
+      "percentage": "86%",
+      "coveredLines": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "uncoveredLines": [
+        9
+      ]
+    }
+  ]
+}
