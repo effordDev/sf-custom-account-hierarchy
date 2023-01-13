@@ -9,6 +9,11 @@
 
 ## Deploy
 
+Clone repo
+```bash
+git clone https://github.com/effordDev/sf-custom-account-hierarchy
+```
+
 Covert with SFDX; This creates a folder called `deploy`
 
 ```bash
