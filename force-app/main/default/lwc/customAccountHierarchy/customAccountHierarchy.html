@@ -1,0 +1,17 @@
+<!-- sldsValidatorIgnore -->
+<template>
+     
+    
+     <template if:true={loading}> 
+          <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+     </template>
+
+     <lightning-tree-grid
+          columns={columns}
+          data={accounts}
+          key-field="name"
+          expanded-rows={expandedRows}
+          hide-checkbox-column
+     ></lightning-tree-grid>
+
+</template>
